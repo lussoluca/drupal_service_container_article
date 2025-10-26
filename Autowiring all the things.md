@@ -15,7 +15,7 @@ In this series of articles, we will explore the Drupal service container in dept
 * **Part 5** will discuss backend overrides, enabling developers to customize service implementations for specific environments or use cases.
 * **Part 6** will examine advanced features of the Drupal service container, such as service decoration and lazy loading.
 
-## Anatomy of a Drupal service
+## Anatomy of a Drupal service
 
 A Drupal service is defined within a module's `MODULE.services.yml` file:
 
