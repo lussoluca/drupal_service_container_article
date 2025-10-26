@@ -1,4 +1,4 @@
-# Drupal service container deep dive. Part 1: tags, compiler passes, service providers and autoconfiguration
+# Drupal service container deep dive part 1: tags, compiler passes, service providers and autoconfiguration
 
 The evolution of Drupal core has increasingly embraced modern PHP standards and robust object-oriented programming (OOP) principles, driven largely by its integration of **Symfony components**. Central to this modernization is the **Service Container**, which acts as the core registry responsible for service instantiation, dependency resolution, and lifecycle management.
 
@@ -135,7 +135,7 @@ When a service is defined in the container, the autoconfiguration process analyz
 
 Autoconfiguration is particularly useful for module developers, as it streamlines the process of registering services and ensures that they are properly configured without requiring extensive boilerplate code.
 
-# Drupal service container deep dive. Part 2: aliases, autowiring and name arguments
+# Drupal service container deep dive part 2: aliases, autowiring and name arguments
 
 ## Aliases
 
@@ -151,13 +151,13 @@ Autowiring allows you to manage services in the container with minimal configura
 
 Name arguments allow you to specify which service should be injected based on a string identifier. This is useful when multiple services implement the same interface, and you need to distinguish between them. For example, if you have multiple payment gateway services implementing a `PaymentGatewayInterface`, you can use name arguments to specify which gateway to inject into a class.
 
-# Drupal service container deep dive. Part 3: service collectors
+# Drupal service container deep dive part 3: service collectors
 
-# Drupal service container deep dive. Part 4: factories
+# Drupal service container deep dive part 4: factories
 
-# Drupal service container deep dive. Part 5: backend overrides
+# Drupal service container deep dive part 5: backend overrides
 
-# Drupal service container deep dive. Part 6: advanced features
+# Drupal service container deep dive part 6: advanced features
 
 * service visibility
 * service shared vs. non-shared services
